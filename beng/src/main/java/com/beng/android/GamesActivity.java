@@ -61,6 +61,7 @@ public class GamesActivity extends BaseActivity {
         @Override
         public void handleMessage(Message msg) {
 
+
             switch (msg.what) {
 
                 case STOPMIN:
