@@ -7,7 +7,7 @@ import android.os.Handler;
 import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
 
-import com.beng.MainActivity;
+import com.beng.LoginActivity;
 import com.beng.R;
 import com.beng.base.BaseActivity;
 
@@ -72,10 +72,12 @@ public class SplashActivity extends BaseActivity {
      * 主页
      */
     private void goHome() {
-        Intent mIntent = new Intent(this, MainActivity.class);
+        Intent mIntent = new Intent(this, LoginActivity.class);
         startActivity(mIntent);
         finish();
     }
+
+
 
 
     /**
