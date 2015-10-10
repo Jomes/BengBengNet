@@ -62,6 +62,7 @@ public class GamesActivity extends BaseActivity {
         public void handleMessage(Message msg) {
 
 
+
             switch (msg.what) {
 
                 case STOPMIN:
