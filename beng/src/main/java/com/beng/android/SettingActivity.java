@@ -19,8 +19,6 @@ public class SettingActivity extends BaseActivity {
     private TextView leftView;
     private TextView centerView;
 
-
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
