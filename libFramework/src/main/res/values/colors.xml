@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+     <!--Common colors,use only ,change the value with steady!-->
+    <color name="transparent">#00000000</color>
+    <color name="white">#ffffff</color>
+    <color name="blue">#559bff</color>
+    <color name="gray">#b4b4b4</color>
+    <color name="bg_line">#d2d2d2</color>
+    <color name="text_comm">#505050</color>
+    <color name="black">#000000</color>
+    
+    <color name="fxb_text_gray">#f5f5fa</color>
+    <color name="fxb_line_gray">#d2d2d2</color>
+    <color name="fxb_text_back">#282828</color>
+    <color name="fxb_text_red">#ff5a73</color>
+    <color name="fxb_text_red_light">#fff0f2</color>
+    <color name="fxb_blue">#559bff</color>
+    <color name="fxb_white">#ffffff</color>
+    <color name="fxb_bg_gray_light">#b4b4b4</color>
+</resources>

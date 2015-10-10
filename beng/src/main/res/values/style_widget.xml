@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="divider">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0.5dp</item>
+        <item name="android:background">@color/divider</item>
+    </style>
+
+    <style name="divider_paragraph">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">7dp</item>
+        <item name="android:background">#e8f2f6</item>
+    </style>
+
+    <style name="tv_content">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">?attr/colorPrimary</item>
+        <item name="android:textSize">16dp</item>
+    </style>
+
+    <style name="tv_content.deep" parent="tv_content">
+        <item name="android:textColor">@color/tv_deep</item>
+    </style>
+
+    <style name="tv_content.normal" parent="tv_content">
+        <item name="android:textColor">@color/tv_normal</item>
+    </style>
+
+    <style name="tv_content.light" parent="tv_content">
+        <item name="android:textColor">@color/tv_light</item>
+    </style>
+    <style name="tv_content.white" parent="tv_content">
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+    <style name="FocusPopupAnim">
+        <item name="android:windowEnterAnimation">@anim/slide_in_from_bottom_fxb</item>
+        <item name="android:windowExitAnimation">@anim/slide_out_to_bottom_fxb</item>
+    </style>
+
+
+    <style name="card">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">50dp</item>
+        <item name="android:background">@android:color/white</item>
+    </style>
+
+    <style name="public_color">
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">@color/toolBar_bg_color</item>
+    </style>
+
+
+    <style name="public_title" parent="tv_content.normal">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:textColor">@color/color_title</item>
+    </style>
+
+    <style name="public_subtitle" parent="tv_content.normal">
+        <item name="android:textSize">14sp</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:textColor">@color/color_subtitle</item>
+    </style>
+
+
+</resources>

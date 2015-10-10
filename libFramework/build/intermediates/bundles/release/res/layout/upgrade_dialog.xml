@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="20dp"
+    android:layout_marginRight="20dp"
+    android:background="@drawable/lib_shape_while"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/up_titles"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:text="@string/uprade_tips"
+        android:textColor="@color/black"
+        android:textSize="17sp" />
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/bg_line" />
+
+    <ProgressBar
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="2dp"
+        android:id="@+id/lib_pb"
+        style="@style/ProgressBar_Mini"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:max="100"
+        android:visibility="gone"
+        />
+    
+    <ScrollView 
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        >
+         <TextView
+        android:id="@+id/upgrade_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:paddingBottom="15dp"
+        android:textColor="@color/text_comm" />
+    </ScrollView>
+
+   
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="60dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/upgrade_ok"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/lib_shape_blue"
+            android:text="@string/uprade_ok"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/upgrade_cancel"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="20dp"
+            android:layout_weight="1"
+            android:background="@drawable/lib_shape_gray"
+            android:text="@string/uprade_cancel"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+</LinearLayout><!-- From: file:/Users/Jomelu/AndroidStudioProjects/projects/BengBengNet/libFramework/src/main/res/layout/upgrade_dialog.xml -->

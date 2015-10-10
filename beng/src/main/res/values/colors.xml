@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="toolBar_bg_color">#0095db</color>
+    <color name="red_700">#ff4c6e</color>
+    <color name="light">#949494</color>
+    <color name="background">#f1f1f1</color>
+    <color name="divider">#d4dee1</color>
+
+    <color name="white">#ffffff</color>
+    <color name="transparent">#00000000</color>
+    <color name="lzb_blue_light">#0095db</color>
+    <color name="color_e7eced">#e7eced</color>
+    <color name="color_eef2f3">#eef2f3</color>
+    <color name="color_title">#222222</color>
+    <color name="color_97a6ad">#97a6ad</color>
+    <color name="color_subtitle">#505659</color>
+    <color name="color_viewh">#e8f2f6</color>
+
+
+    <color name="tv_normal">@color/color_subtitle</color>
+    <color name="tv_deep">@color/color_title</color>
+    <color name="tv_light">@color/color_97a6ad</color>
+
+</resources>

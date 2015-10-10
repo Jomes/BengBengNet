@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <solid android:color="@color/blue" />
+    <corners
+        android:bottomLeftRadius="2dp"
+        android:bottomRightRadius="2dp"
+        android:topLeftRadius="2dp"
+        android:topRightRadius="2dp" />
+
+</shape><!-- From: file:/Users/Jomelu/AndroidStudioProjects/projects/BengBengNet/libFramework/src/main/res/drawable/lib_shape_blue.xml --><!-- From: file:/Users/Jomelu/AndroidStudioProjects/projects/BengBengNet/libFramework/build/intermediates/bundles/debug/res/drawable/lib_shape_blue.xml -->

@@ -1,0 +1,32 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 21
+    buildToolsVersion "21.1.2"
+
+    defaultConfig {
+        applicationId "com.beng"
+        minSdkVersion 18
+        targetSdkVersion 21
+        versionCode 1
+        versionName "1.0"
+    }
+
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+    compile 'com.android.support:appcompat-v7:22.2.1'
+    compile project(':libFramework')
+    compile files('src/main/libs/jackson-annotations-2.1.4.jar')
+    compile files('src/main/libs/jackson-core-2.1.4.jar')
+    compile files('src/main/libs/jackson-databind-2.1.4.jar')
+    compile files('src/main/libs/json_simple-1.1.jar')
+}

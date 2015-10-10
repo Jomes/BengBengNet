@@ -1,0 +1,8 @@
+<resources>
+
+    <string name="app_name">FocusFramework</string>
+    <string name="uprade_tips">更新提示</string>
+    <string name="uprade_ok">立即更新</string>
+    <string name="uprade_cancel">取消</string>
+
+</resources>

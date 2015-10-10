@@ -1,0 +1,106 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/background"
+    android:padding="10dp"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        style="@style/public_title"
+        android:layout_height="120dp"
+        android:gravity="center"
+        android:background="@drawable/mine_bg"
+        android:text="蛋蛋助手"
+        android:textColor="@color/white"
+
+        />
+
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/btn_gray_frame"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_gravity="center_vertical"
+            android:layout_width="wrap_content"
+            android:layout_marginLeft="12dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/login_user" />
+
+        <View
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_width="0.5dp"
+            android:layout_height="fill_parent"
+            android:background="@color/lzb_blue_light" />
+
+        <com.beng.view.EmailAutoCompleteTextView
+            android:layout_marginLeft="8dp"
+            android:id="@+id/info_email"
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:background="@null"
+            android:hint="请输入您常用的邮箱"
+            android:textColorHint="@color/lzb_blue_light"
+            android:textColor="@color/lzb_blue_light"
+            android:textSize="17sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="5dp"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/btn_gray_frame"
+        android:orientation="horizontal">
+
+
+        <ImageView
+            android:layout_gravity="center_vertical"
+            android:layout_width="wrap_content"
+            android:layout_marginLeft="12dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/login_pw" />
+
+        <View
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_width="0.5dp"
+            android:layout_height="fill_parent"
+            android:background="@color/lzb_blue_light" />
+
+        <EditText
+            android:id="@+id/pw"
+            android:layout_width="fill_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_height="fill_parent"
+            android:background="@null"
+            android:textSize="17sp"
+            android:textColor="@color/lzb_blue_light"
+            android:inputType="textPassword"
+            android:textColorHint="@color/lzb_blue_light"
+            android:hint="输入密码" />
+
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/login"
+        android:layout_marginTop="20dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btn_shape_gray"
+        android:padding="5dp"
+        android:textSize="17sp"
+        android:textColor="@color/white"
+        android:text="登陆" />
+
+
+</LinearLayout>

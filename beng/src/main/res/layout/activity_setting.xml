@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <include
+        android:id="@+id/title"
+        layout="@layout/title_public" />
+
+    <LinearLayout
+        android:layout_marginTop="5dp"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/btn_gray_frame"
+        android:orientation="horizontal">
+
+
+        <ImageView
+            android:layout_gravity="center_vertical"
+            android:layout_width="wrap_content"
+            android:layout_marginLeft="12dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/setting_bs" />
+
+        <View
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_width="0.5dp"
+            android:layout_height="fill_parent"
+            android:background="@color/lzb_blue_light" />
+
+        <EditText
+            android:id="@+id/beishu"
+            android:layout_width="fill_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_height="fill_parent"
+            android:background="@null"
+            android:textSize="17sp"
+            android:textColor="@color/lzb_blue_light"
+            android:inputType="number"
+            android:textColorHint="@color/lzb_blue_light"
+            android:hint="输入倍数" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/btn_gray_frame"
+        android:orientation="horizontal">
+
+
+        <ImageView
+            android:layout_gravity="center_vertical"
+            android:layout_width="wrap_content"
+            android:layout_marginLeft="12dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/setting_ms" />
+
+        <View
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_width="0.5dp"
+            android:layout_height="fill_parent"
+            android:background="@color/lzb_blue_light" />
+
+        <TextView
+            android:id="@+id/mode"
+            android:layout_width="fill_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_height="fill_parent"
+            android:background="@null"
+            android:textSize="17sp"
+            android:text="请选择模式"
+            android:gravity="center_vertical"
+            android:textColor="@color/lzb_blue_light"
+            android:textColorHint="@color/lzb_blue_light"
+            />
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
