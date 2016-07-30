@@ -37,8 +37,17 @@ public class MainActivity extends ActionBarActivity {
         return super.onOptionsItemSelected(item);
     }
 
+
    public boolean hh(){
 
     System.out.println("SB");
+
+   }
+  
+    public boolean testGit(String name){
+
+     
+    return  true; 
+
    }
 }
