@@ -50,4 +50,9 @@ public class MainActivity extends ActionBarActivity {
     return  true; 
 
    }
+   
+   public boolean helloWorld(){
+   
+       System.out.println("this is a v1-dev branch  method");
+   }
 }
